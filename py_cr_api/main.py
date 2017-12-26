@@ -3,7 +3,7 @@ import requests
 
 
 def get_tag(tag):
-    return f"https://api.cr-api.com/profile/{tag}"
+    return f"https://api.cr-api.com/players/{tag}"
     
 def get_auth(auth_key):
     return {"auth": auth_key}
