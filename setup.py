@@ -7,7 +7,7 @@ setup(
     license='MIT',
     author='Free TNT',
     description='a python api wrapper for cr-api.com to learn',
-    packages=['py-cr-api']
+    packages=['py_cr_api']
     )
     
     
