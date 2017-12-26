@@ -1,4 +1,4 @@
-from .main import profile
+from .main import profile, get_tag, get_auth
 
 __title__ = "PY CR-API"
 __version__ = "1.0.0"
