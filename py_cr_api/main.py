@@ -3,10 +3,10 @@ import requests
 
 
 def get_tag(tag):
-    tag = f"https://api.cr-api.com/profile/{tag}"
+    return f"https://api.cr-api.com/profile/{tag}"
     
 def get_auth(auth_key):
-    auth_key = {"auth": auth_key}
+    return {"auth": auth_key}
     
 def profile(tag_var, auth_var):
     url = tag_var
